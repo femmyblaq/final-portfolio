@@ -687,9 +687,9 @@ export default {
 
 <style scoped>
 /* My experience nav and tab styling */
-.bd-example .nav {
-  /* border-left: 5px solid #55a4be; */
-}
+/* .bd-example .nav { */
+/* border-left: 5px solid #55a4be; */
+/* } */
 .nav-link {
   border: none;
   text-align: left;
