@@ -1,39 +1,41 @@
 <template>
-  <div class="navbar navbar-expand-lg py-4 px-4">
-    <a href="" class="navbar-brand">BG</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-target="#myNav"
-      data-toggle="collapse"
-      aria-controls="myNav"
-      aria-expanded="false"
-      aria-label="Toggle-Navigation"
-    >
-      <span class="navbar-toggle-icon text-black"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="myNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a href="#about" class="nav-link"><span>01. </span>About</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link"><span>02. </span>Experience</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link"><span>03. </span>Work</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link"><span>04. </span>Contact</a>
-        </li>
-        <li>
-          <a href="">
-            <button class="btn btn-sm btn-outline-primary py-2 px-3">
-              Resume
-            </button>
-          </a>
-        </li>
-      </ul>
+  <div class="container-fluid">
+    <div class="navbar navbar-expand-lg py-4 px-4">
+      <a href="" class="navbar-brand">BG</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-target="#myNav"
+        data-bs-toggle="collapse"
+        aria-controls="myNav"
+        aria-expanded="false"
+        aria-label="Toggle-Navigation"
+      >
+        <span class="navbar-toggle-icon text-black"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span>01. </span>About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><span>02. </span>Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><span>03. </span>Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><span>04. </span>Contact</a>
+          </li>
+          <li>
+            <a href="">
+              <button class="btn btn-sm btn-outline-primary py-2 px-3">
+                Resume
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>

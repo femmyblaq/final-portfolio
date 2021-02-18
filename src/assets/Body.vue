@@ -39,15 +39,15 @@
 
     <!-- About section -->
     <section id="about">
-      <div class="container p-lg-5 mx-auto">
-        <div class="row mb-2">
+      <div class="container-lg p-lg-5  mx-auto">
+        <div class="row mb-4">
           <div class="col-lg-10">
             <h5><span class="span">01. </span>About Me</h5>
             <div class="linediv"></div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-8 pe-3">
+          <div class="col-lg-8 pe-lg-3">
             <p>Hello, i'm habeeb, a software engeneering base on Lagos City.</p>
             <p>
               To me creating things on the internet is fun, like, i do enjoy it.
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="col-lg-4 ms-sm-auto">
-            <img class="my_img" src="image/mypics.jpg" />
+            <img class="my_img" src="image/yusuph.png" />
             <div class="box"></div>
           </div>
         </div>
@@ -99,7 +99,7 @@
     <!-- Experience section -->
 
     <section id="experience">
-      <div class="container">
+      <div class="container py-5">
         <div class="row">
           <div class="col-lg-8 d-flex align-items-center m-auto">
             <div class="bd-example">
@@ -173,20 +173,40 @@
                       <p><small>February 2021 - Present</small></p>
                     </div>
                     <ul class="tab-write">
-                      <i class="fas fa-angle-right mx-2"></i>
-                      <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias maxime dignissimos harum eius veniam! Nisi!
+                      <li class="d-flex ">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
                       </li>
-                      <i class="fas fa-angle-right mx-2"></i>
-                      <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias maxime dignissimos harum eius veniam! Nisi!
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
                       </li>
-                      <i class="fas fa-angle-right mx-2"></i>
-                      <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias maxime dignissimos harum eius veniam! Nisi!
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -196,17 +216,50 @@
                     role="tabpanel"
                     aria-labelledby="v-pills-profile-tab"
                   >
-                    <p>
-                      Placeholder content for the tab panel. This one relates to
-                      the profile tab. Takes you miles high, so high, 'cause
-                      she’s got that one international smile. There's a stranger
-                      in my bed, there's a pounding in my head. Oh, no. In
-                      another life I would make you stay. ‘Cause I, I’m capable
-                      of anything. Suiting up for my crowning battle. Used to
-                      steal your parents' liquor and climb to the roof. Tone,
-                      tan fit and ready, turn it up cause its gettin' heavy. Her
-                      love is like a drug. I guess that I forgot I had a choice.
-                    </p>
+                    <div class="tab-header">
+                      <h5>
+                        Engineer
+                        <span style="color: #00aff0;">@ Company_name</span>
+                      </h5>
+                      <p><small>February 2021 - Present</small></p>
+                    </div>
+                    <ul class="tab-write">
+                      <li class="d-flex ">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+                    </ul>
                   </div>
                   <div
                     class="tab-pane fade"
@@ -214,17 +267,50 @@
                     role="tabpanel"
                     aria-labelledby="v-pills-messages-tab"
                   >
-                    <p>
-                      Placeholder content for the tab panel. This one relates to
-                      the messages tab. You got the finest architecture.
-                      Passport stamps, she's cosmopolitan. Fine, fresh, fierce,
-                      we got it on lock. Never planned that one day I'd be
-                      losing you. She eats your heart out. Your kiss is cosmic,
-                      every move is magic. I mean the ones, I mean like she's
-                      the one. Greetings loved ones let's take a journey. Just
-                      own the night like the 4th of July! But you'd rather get
-                      wasted.
-                    </p>
+                    <div class="tab-header">
+                      <h5>
+                        Engineer
+                        <span style="color: #00aff0;">@ Company_name</span>
+                      </h5>
+                      <p><small>February 2021 - Present</small></p>
+                    </div>
+                    <ul class="tab-write">
+                      <li class="d-flex ">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+                    </ul>
                   </div>
                   <div
                     class="tab-pane fade"
@@ -232,17 +318,50 @@
                     role="tabpanel"
                     aria-labelledby="v-pills-settings-tab"
                   >
-                    <p>
-                      Placeholder content for the tab panel. This one relates to
-                      the settings tab. Her love is like a drug. All my girls
-                      vintage Chanel baby. Got a motel and built a fort out of
-                      sheets. 'Cause she's the muse and the artist. (This is how
-                      we do) So you wanna play with magic. So just be sure
-                      before you give it all to me. I'm walking, I'm walking on
-                      air (tonight). Skip the talk, heard it all, time to walk
-                      the walk. Catch her if you can. Stinging like a bee I
-                      earned my stripes.
-                    </p>
+                    <div class="tab-header">
+                      <h5>
+                        Engineer
+                        <span style="color: #00aff0;">@ Company_name</span>
+                      </h5>
+                      <p><small>February 2021 - Present</small></p>
+                    </div>
+                    <ul class="tab-write">
+                      <li class="d-flex ">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+
+                      <li class="d-flex">
+                        <i
+                          class="fas fa-angle-right mt-2 me-3"
+                          style="font-size: 0.7em; color: #00aff4"
+                        ></i>
+                        <p class="mb-2" style="margin-top: 3px">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Molestias maxime dignissimos harum eius veniam!
+                          Nisi!
+                        </p>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -252,76 +371,43 @@
       </div>
     </section>
 
-    <!-- Some things have built -->
-    <!-- <section id="websites">
-        <div class="container">
-            <div class="row mb-2 px-3">
-              <div class="col-lg-10 ms-4">
-              <h5><span class="span">03. </span>Some Things I've Built</h5>
-              <div style="width: 70%;" class="linediv"></div>
+    <!-- work have built -->
+    <section id="work-done">
+      <div class="container-lg">
+        <div class="row work-wrap">
+          <div class="work-img col-12">
+            <img src="image/website1.png" alt="" />
+          </div>
+          <div class="work-content col-12 position-absolute">
+            <p class="m-0">Featured Project</p>
+            <h4>Personal Info</h4>
+            <div class="card bg-light">
+              <div class="card-body ">
+                <p class="card-text mt-0">
+                  This website is all about Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Optio dolor illo a nemo,
+                  possimus quibusdam.
+                </p>
               </div>
             </div>
-            <div class="both p-5">
-              <div class="left-grid">
-                <div class="overlay">
-                  <img src="../../public/image/website1.png" alt="pics">
-                </div>
-              </div>
-              <div>
-                <div class="right-grid">
-                  <p>Featured Project</p>
-                  <h3>Next Tech</h3>
-                  <div class="project-write-up">
-                    <p>Next generation technology website simply makes the difference among other technologically websites. A great user friendly interfaces.</p>
-                  </div>
-                  <ul class="project-tools">
-                    <li>Html</li>
-                    <li>Css</li>
-                    <li>Font Awesome</li>
-                    <li class="pe-0">Js</li>
-                  </ul>
-                  <div class="icon-link">
-                    <i class="fa fa-github pe-2" aria-hidden="true"></i>
-                    <i class="fas fa-external-link-alt p-2"></i
-                  >
-                  </div>
-                </div>
-              </div>
+            <div class=" m-2">
+              <ul class="text-end mt-lg-2">
+                <li>Html <span>Bootstrap</span> <span>Font Awesome</span></li>
+              </ul>
             </div>
-            <div class="row p-5">
-              <div class="col-lg-6">
-                <div style="text-align: left;" class="right-grid">
-                  <p>Featured Project</p>
-                  <h3>Portfolio</h3>
-                  <div class="project-write-up">
-                    <p>This portfolio website is my personal website that shows some personal details about me if not all. it is simple website that pertain on some of my skills and Educational levels.</p>
-                  </div>
-                  <ul class="project-tools p-0" style="margin: 0;">
-                    <li class="ps-0">Html</li>
-                    <li>Css</li>
-                    <li>Font Awesome</li>
-                    
-                  </ul>
-                  <div class="icon-link">
-                    <i class="fa fa-github pe-2" aria-hidden="true"></i>
-                    <i class="fas fa-external-link-alt p-2"></i
-                  >
-                  </div>
-                </div>
-              </div>
-              <div class="left-grid col-lg-6 ">
-                <div class="overlay">
-                  <img src="../../public/image/website1.png" style="margin-right: 90px" alt="pics">
-                </div>
-              </div>
-              
+            <div class="links mt-2">
+              <p class="text-end">
+                <i class="fa fa-github pe-2" aria-hidden="true"></i>
+                <i class="fas fa-external-link-alt ps-2 pe-0"></i>
+              </p>
             </div>
+          </div>
         </div>
-    </section> -->
-
-    <!-- Works that have done -->
+      </div>
+    </section>
+    <!-- project that have done -->
     <section id="projects">
-      <div class="container">
+      <div class="container mt-5">
         <div class="project-header text-center">
           <h3>Other Networthy Projects</h3>
           <p>view the archive</p>
@@ -649,7 +735,7 @@
     <!-- Footer Section -->
     <section id="footer">
       <div class="row ">
-        <div class="icons d-lg-none col-sm-12 m-auto">
+        <div class="icons d-none col-12 m-auto">
           <ul class="bottom-icons d-flex m-auto">
             <li><i class="fa fa-github" aria-hidden="true"></i></li>
             <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
@@ -703,6 +789,9 @@ export default {
 .nav-link:focus {
   outline: none;
 }
+.nav-link:hover {
+  background-color: rgb(221, 220, 220);
+}
 .nav-link.active {
   border: transparent;
   border-left: 5px solid #00aff0;
@@ -727,119 +816,146 @@ export default {
   font-size: 0.8em;
 }
 /* What have done styling */
-#websites {
-  width: 100%;
+#work-done {
+  padding: 80px 150px;
 }
 
-#websites img {
+#work-done .work-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.work-img img {
+  width: 550px;
   height: 350px;
-  width: 600px;
-  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
-#websites .both {
-  display: flex;
-  flex-direction: row;
-}
-#websites .right-grid > p {
-  font-family: "Roboto Mono";
-  font-size: 0.7em;
-  margin: 0;
-  color: #00aff0;
-}
-#websites .right-grid h3 {
-  font-size: 1.7em;
-  font-weight: 700;
-  color: #55a4be;
-}
-#websites .right-grid .project-write-up {
-  background-color: #87b6c7;
-  color: #fff;
-  padding: 18px;
-  margin-top: 25px;
-  box-shadow: 3px 3px 15px #55a4be;
+
+#work-done .work-content {
+  text-align: right;
   position: absolute;
+  width: 40%;
+  z-index: 99;
+  right: 15%;
+  margin-top: 50px;
+  /* top: 50%; */
+}
+#work-done .work-content .m-0 {
+  font-size: 0.7em;
+  font-family: "Roboto Mono";
+  color: #55a4be;
   z-index: 2;
-  right: 13%;
-  width: 35%;
 }
-#websites .right-grid .project-write-up p {
-  font-size: 0.8em;
-  margin-bottom: 0;
+#work-done .work-content h4 {
+  color: #00aff0;
+  z-index: 2;
 }
-#websites .right-grid .project-tools {
+
+#work-done .card p {
+  font-weight: 500;
+}
+#work-done .project-writeup .card-body {
+  padding: 0;
+}
+
+#work-done .work-content ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  margin-left: 155px;
-  padding-bottom: 0;
+  position: relative;
+  left: 46%;
 }
-#websites .right-grid .project-tools li {
-  padding: 20px 10px;
-  font-family: "Roboto Mono";
+
+#work-done .work-content ul li {
+  padding: 5px;
   font-size: 0.7em;
-  z-index: 99;
-  margin-top: 110px;
-  padding-bottom: 0;
+  font-family: "Roboto Mono";
 }
-#websites .right-grid {
-  text-align: right;
-  margin-top: 30px;
-}
-#websites .right-grid .icon-link i:hover {
-  color: #00aff0;
-}
+
 @media screen and (max-width: 480px) {
-  #websites {
+  body {
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
-  #websites img {
-    height: 200px;
-    width: 100vw;
-    /* box-shadow: 0px 2px 25px #000; */
+  #work-done {
+    padding: 0;
   }
-  #websites .both {
-    display: flex;
-    flex-direction: row;
+
+  #work-done .work-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .work-img img {
+    width: 100%;
+    height: 250px;
+    /* max-width: 415px; */
+    opacity: 45.5%;
+  }
+
+  #work-done .work-content {
+    text-align: right;
+    position: relative;
+    z-index: 99;
+    /* top: 390%; */
+    right: 4%;
+    margin-top: 0;
+    width: 90%;
+  }
+
+  #work-done .work-content h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  #work-done .project-writeup {
+    background-color: transparent;
+  }
+
+  #work-done .card p {
+    font-weight: 500;
+    font-size: 0.8em;
+  }
+  #work-done .work-content ul {
+    left: 9%;
+  }
+
+  #work-done .work-content ul li {
+    font-size: 0.7rem;
   }
 }
-#websites .right-grid h3 {
-  font-size: 1em;
-}
-#websites .right-grid .project-write-up {
-  color: #fff;
-  /* padding: 18px; */
-  margin-top: 25px;
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-}
-#websites .right-grid .project-write-up p {
-  font-size: 0.8em;
-  margin-bottom: 0;
-}
-#websites .right-grid .project-tools {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  margin-left: 155px;
-  /* padding-bottom: 0; */
-}
-#websites .right-grid .project-tools li {
-  padding: 20px 10px;
-  font-family: "Roboto Mono";
-  font-size: 0.7em;
-  z-index: 99;
-  margin-top: 110px;
-  padding-bottom: 0;
-}
-#websites .right-grid {
-  text-align: right;
-  margin-top: 30px;
-  width: 100%;
-}
-#websites .right-grid .icon-link i:hover {
-  color: #00aff0;
-}
+
+/* @media screen and (max-width: 790px) {
+    body {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #work-done {
+        padding: 10px 50px;
+    }
+
+    .work-img img {
+        width: 600px;
+        height: 450px;
+    }
+
+
+    #work-done .work-content ul {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        
+    }
+
+    #work-done .work-content ul li {
+        padding: 5px;
+
+    }
+} */
 </style>
