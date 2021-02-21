@@ -71,11 +71,7 @@ body {
   margin: 0;
 }
 
-/* .header {
-  width: 70%;
-  max-height: 100vh;
-  margin-right: 70px;
-} */
+
 .header>div h1 {
   font-weight: 700;
   font-size: 4em;
@@ -109,78 +105,111 @@ body {
 }
 
 /* About section */
-.linediv {
-  width: 100%;
+#about .linediv {
+  width: 85%;
   height: 1px;
   background-color: rgba(10, 98, 131, 0.4);
   margin-left: -175px;
   margin-top: 20px;
 }
 
-.col-lg-10 .span {
+#about .col-lg-10 .span {
   font-family: "Roboto Mono";
   font-weight: 700;
   font-size: 0.7em;
   color: #55a4be;
 }
 
-.col-lg-10 h5 {
+#about .col-lg-10 h5 {
   font-size: 1.4em;
   font-weight: bold;
   color: #00aff0;
 }
 
-.col-lg-4 img {
+#about .col-lg-5 .overlay-container {
   width: 300px;
   height: 300px;
-  border-radius: 2%;
-  position: absolute;
+  position: relative;
+  border-radius: 3%;
 }
 
-.box {
+#about .col-lg-5 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+  display: block;
+}
+
+#about .col-lg-5 .overlay-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 30%;
+  transition: .5s ease;
+  background-color: #00aff0;
+  border-radius: 3%;
+
+}
+
+#about .col-lg-5 .overlay-container .overlay:hover {
+  opacity: 0;
+}
+
+#about .box {
   border: 3px solid rgba(0, 175, 240, 0.5);
+  top: 0%;
   width: 300px;
   height: 300px;
   margin: 20px 0 0 20px;
   border-radius: 2%;
+  z-index: -1;
+  position: absolute;
+}
+
+#about .col-lg-5 .overlay-container:hover .box {
+  margin: 15px 0 0 15px;
+  transition: 0.3s ease;
 }
 
 #about .container-lg {
   width: 75%;
 }
 
-#about .container-lg .row .col-lg-10,
-#websites .container .row .col-lg-10 {
+#about .container-lg .row .col-lg-10 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
 }
 
 #about {
-  margin: 100px 0;
+  margin: 150px 0;
   /* padding: 20px; */
 }
 
 #about .tools li {
   padding: 0;
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-family: "Roboto Mono";
 }
 
-#about .row .col-lg-8 p {
+#about .row .col-lg-7 p {
   font-size: 0.9em;
   font-weight: 500;
 }
 
-.tools ul {
+#about .tools ul {
   list-style: none;
 }
 
-.tools i {
+#about .tools i {
   color: #00aff0;
 }
 
-.tools .col-lg-6 {
+#about .tools .col-lg-6 {
   width: 40%;
 }
 
@@ -201,10 +230,10 @@ body {
   padding: 8px;
 }
 
-#projects>.container>.projects .card:hover {
-  /* margin-bottom: 5px;
-  transition: margin-bottom 0.5s; */
-}
+/* #projects>.container>.projects:hover .card {
+  margin-bottom: 5px;
+  transition: margin-bottom 0.5s;
+} */
 
 #projects .container {
   padding: 60px;
@@ -381,53 +410,84 @@ body {
     padding: 20px 30px;
   }
 
-  .btn-outline-primary:hover {
+  #home-content .myBtn .btn-outline-primary:hover {
     background-color: #4ab7df;
-    color: #ffffff;
+    color: #fff;
   }
 
   /* About section */
-  .linediv {
+  #about .linediv {
     margin-left: 0;
     margin-top: 17px;
   }
 
-  .col-lg-10 .span {
+  #about .col-lg-10 .span {
     font-size: 0.7em;
   }
 
-  .col-lg-10 h5 {
+  #about .col-lg-10 h5 {
     font-size: 1.2em;
   }
 
-  .col-lg-4 img {
+  #about .col-lg-5 .overlay-container {
     width: 220px;
     height: 220px;
-    border-radius: 2%;
+    border-radius: 3%;
+    position: relative;
+  }
+
+  #about .col-lg-5 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    display: block;
+  }
+
+  #about .col-lg-5 .overlay-container .overlay {
     position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    transition: .5s ease;
+    background-color: #00aff0;
+    border-radius: 3%;
+
   }
 
-  .box {
-    border: 3px solid rgba(0, 175, 240, 0.5);
+  #about .col-lg-5 .overlay-container .overlay:hover {
+    opacity: 0;
+  }
+
+  #about .box {
     width: 220px;
     height: 220px;
-    margin: 20px 0 0 20px;
-    border-radius: 2%;
   }
 
-  #about .container .ms-sm-auto {
-    margin-left: 50px;
+  #about .col-lg-5 .overlay-container:hover .box {
+    margin: 15px 0 0 15px;
+    transition: 0.3s ease;
+  }
+
+  #about .container-lg .ms-sm-auto {
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #about .container-lg {
     margin: 0;
     width: 100%;
     display: block;
-    padding: 10px;
   }
 
   #about {
     margin: 20px 0;
+    padding: 10px;
   }
 
   #about .tools li {
