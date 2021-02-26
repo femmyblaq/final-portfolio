@@ -1,8 +1,8 @@
 <template>
   <div>
     <div id="sideBar">
-      <div class="container p-5">
-        <img src="/public/img/White.jpg" alt="" />
+      <div class="container-fluid p-4">
+        <img src="../../public/image/yusuph2.png" alt="" />
         <div id="aboutMe" class="mt-4">
           <h6>ABOUT ME</h6>
           <p>
@@ -47,27 +47,9 @@
         <hr class="my-2" />
         <div id="language">
           <h6>LANGUAGE</h6>
-          <p><strong>ENGLISH</strong></p>
-          <div class="progress">
-            <div
-              class="progress-bar bg-dark"
-              role="progressbar"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <p><strong>YORUBA</strong></p>
-          <div class="progress">
-            <div
-              class="progress-bar bg-dark"
-              role="progressbar"
-              style="width: 60%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+          <div class="d-flex">
+            <p><strong>ENGLISH</strong></p>
+            <p class="ms-5"><strong>YORUBA</strong></p>
           </div>
         </div>
       </div>
@@ -82,7 +64,7 @@ export default {};
 <style scoped>
 #sideBar {
   background-color: brown;
-  width: 30%;
+  width: 25%;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -92,9 +74,9 @@ img {
   height: 150px;
   border-radius: 100%;
 }
-#sideBar > .container p {
+#sideBar > .container-fluid p {
   color: aliceblue;
-  font-size: 18px;
+  font-size: 0.8em;
 }
 h6 {
   font-weight: 700;

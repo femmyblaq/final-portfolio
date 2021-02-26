@@ -7,9 +7,6 @@
 
 <script>
 import BodyVue from "./assets/Body.vue";
-// import CvVue from "./components/Cv.vue";
-// import MainContentVue from "./components/MainContent.vue";
-// import SideBarVue from "./components/SideBar.vue";
 import HeaderVue from "./header/Header.vue";
 
 export default {

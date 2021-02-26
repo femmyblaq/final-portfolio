@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div id="all-works" class="container-fluid">
     <!-- My sides -->
     <div class="vetical-left-side">
       <ul class="side-icons">
@@ -18,7 +18,7 @@
     <!-- Home section  -->
     <section id="home-content">
       <div class="header row mb-lg-5">
-        <div class="col-lg-10 m-auto px-lg-5">
+        <div class="col-lg-10 m-lg-auto px-lg-5">
           <p class="hi">Hi, my name is</p>
           <h1>Yusuph Habeeb.</h1>
           <h2>I build things for the web.</h2>
@@ -68,11 +68,9 @@
                 <li class="">
                   <i class="fas fa-angle-right mx-2 mt-0"></i>JavaScript (Es6)
                 </li>
+                <li class="my-2"><i class="fas fa-angle-right mx-2"></i>Vue</li>
                 <li class="my-2">
-                  <i class="fas fa-angle-right mx-2"></i>JavaScript (Es6)
-                </li>
-                <li class="my-2">
-                  <i class="fas fa-angle-right mx-2"></i>JavaScript (Es6)
+                  <i class="fas fa-angle-right mx-2"></i>Jquery
                 </li>
               </ul>
               <ul class="col-lg-6 ps-1">
@@ -80,10 +78,10 @@
                   <i class="fas fa-angle-right mx-2"></i>Html S(CSS)
                 </li>
                 <li class="my-2">
-                  <i class="fas fa-angle-right mx-2"></i>JavaScript (Es6)
+                  <i class="fas fa-angle-right mx-2"></i>Bootstrap
                 </li>
                 <li class="my-2">
-                  <i class="fas fa-angle-right mx-2"></i>JavaScript (Es6)
+                  <i class="fas fa-angle-right mx-2"></i>Wordpress
                 </li>
               </ul>
             </div>
@@ -772,7 +770,7 @@
     <!-- Get in Touch with me -->
     <section id="contact">
       <div class="row my-5">
-        <div class="col-lg-6 col-md-6 text-center m-auto">
+        <div class="col-lg-6 text-center m-auto">
           <div class="in-touch">
             <p class="next">04. What's Next?</p>
             <h1>Get In Touch</h1>
@@ -792,7 +790,7 @@
     <!-- Footer Section -->
     <section id="footer">
       <div class="row ">
-        <div class="icons d-none col-12 m-auto">
+        <div class="icons d-lg-none col-12 m-auto">
           <ul class="bottom-icons d-flex m-auto">
             <li><i class="fa fa-github" aria-hidden="true"></i></li>
             <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
@@ -801,7 +799,7 @@
             <li><i class="fa fa-codepen" aria-hidden="true"></i></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-3 m-auto text-center">
+        <div class="col-lg-3 m-auto text-center">
           <p>Design & built by Yusuph Habeeb</p>
           <p>
             <i class="far fa-star"></i><span> 304 </span
@@ -833,219 +831,7 @@ export default {
 /* .bd-example .nav { */
 /* border-left: 5px solid #55a4be; */
 /* } */
-.nav-link {
-  border: none;
-  text-align: left;
-  border-left: 5px solid #ccc;
-  height: 50px;
-  background: none;
-  font-family: "Roboto Mono";
-  font-size: 0.7em;
-  scroll-behavior: smooth;
-}
-.nav-link:focus {
-  outline: none;
-}
-.nav-link:hover {
-  background-color: rgb(221, 220, 220);
-}
-.nav-link.active {
-  border: transparent;
-  border-left: 5px solid #00aff0;
-  color: #00aff0;
-  transition: 0.5s ease-in;
-  background-color: rgb(221, 220, 220);
-}
-#experience .container-lg .col-lg-10 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#experience .container-lg .col-lg-10 span {
-  color: #55a4be;
-  font-family: "Roboto Mono";
-  font-size: 0.7em;
-}
-#experience .container-lg .col-lg-10 h5 {
-  font-size: 1.4em;
-  font-weight: 700;
-  color: #00aff0;
-}
-#experience .container-lg .col-lg-10 .linediv {
-  height: 1px;
-  background: rgba(10, 98, 131, 0.4);
-  width: 300px;
-  margin-left: -60px;
-  margin-top: 20px;
-}
-#experience .container .tab-header h5 {
-  font-size: 1em;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-#experience .container .tab-header p {
-  font-family: "Roboto Mono";
-  font-size: 0.7em;
-}
-#experience .container .tab-write {
-  list-style: none;
-  padding: 0;
-}
-#experience .container .tab-write li {
-  font-size: 0.8em;
-}
 /* What have done styling */
-#work-done .container-lg .col-lg-10 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-#work-done .container-lg .col-lg-10 span {
-  color: #55a4be;
-  font-family: "Roboto Mono";
-  font-size: 0.7em;
-}
-#work-done .container-lg .col-lg-10 h5 {
-  font-size: 1.4em;
-  font-weight: 700;
-  color: #00aff0;
-}
-#work-done .container-lg .col-lg-10 .linediv {
-  height: 1px;
-  background: rgba(10, 98, 131, 0.4);
-  width: 300px;
-  margin-left: -60px;
-  margin-top: 20px;
-}
-#work-done {
-  padding: 80px 150px;
-}
-
-#work-done .work-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#work-done .work-img .overlay-container {
-  width: 550px;
-  height: 350px;
-  position: relative;
-  border-radius: 1%;
-}
-
-#work-done .work-img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 1%;
-  display: block;
-}
-#work-done .work-img-right .overlay-container {
-  width: 550px;
-  height: 350px;
-  position: relative;
-  left: 70%;
-  border-radius: 1%;
-}
-#work-done .work-img-right img {
-  width: 100%;
-  height: 100%;
-  left: 70%;
-  border-radius: 1%;
-}
-
-#work-done .col-12 .overlay-container .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 30%;
-  transition: 0.5s ease;
-  background-color: #00aff0;
-  border-radius: 1%;
-}
-
-#work-done .col-12 .overlay-container .overlay:hover {
-  opacity: 0;
-}
-/*  */
-
-#work-done .work-content {
-  text-align: right;
-  position: absolute;
-  width: 40%;
-  z-index: 99;
-  right: 15%;
-  margin-top: 50px;
-  /* top: 50%; */
-}
-#work-done .card {
-  border-radius: 0;
-}
-
-#work-done .card p {
-  font-weight: 500;
-}
-#work-done .project-writeup .card-body {
-  padding: 0;
-}
-#work-done .work-content .m-0 {
-  font-size: 0.7em;
-  font-family: "Roboto Mono";
-  color: #55a4be;
-}
-#work-done .work-content h4 {
-  color: #00aff0;
-}
-
-#work-done .work-content ul {
-  list-style: none;
-  display: flex;
-  position: relative;
-  left: 46%;
-}
-
-#work-done .work-content ul li {
-  padding: 5px;
-  font-size: 0.7em;
-  font-family: "Roboto Mono";
-}
-
-/* left align style  */
-
-#work-done .work-content-left {
-  text-align: left;
-  position: absolute;
-  width: 40%;
-  z-index: 99;
-  left: 12%;
-  margin-top: 50px;
-  /* top: 50%; */
-}
-#work-done .work-content-left .m-0 {
-  font-size: 0.7em;
-  font-family: "Roboto Mono";
-  color: #55a4be;
-  z-index: 2;
-}
-#work-done .work-content-left h4 {
-  color: #00aff0;
-  z-index: 2;
-}
-
-#work-done .work-content-left ul {
-  list-style: none;
-  display: flex;
-  position: relative;
-  padding-left: 0;
-  left: 0%;
-}
-
-#work-done .work-content-left ul li {
-  padding: 5px;
-  font-size: 0.7em;
-  font-family: "Roboto Mono";
-}
 
 @media screen and (max-width: 480px) {
   body {
@@ -1053,131 +839,7 @@ export default {
     margin: 0;
     padding: 0;
   }
-
-  #experience .container-lg .col-lg-10 span {
-    font-size: 0.7em;
-  }
-  #experience .container-lg .col-lg-10 h5 {
-    font-size: 1em;
-    font-weight: 700;
-    position: relative;
-  }
-  #experience .container-lg .col-lg-10 .linediv {
-    width: 70px;
-    margin-top: 15px;
-    margin-left: 80px;
-  }
   /* Work done style */
-  #work-done .container-lg .col-lg-10 span {
-    font-size: 0.7em;
-  }
-  #work-done .container-lg .col-lg-10 h5 {
-    font-size: 1em;
-    font-weight: 700;
-    position: relative;
-  }
-  #work-done .container-lg .col-lg-10 .linediv {
-    width: 70px;
-    margin-top: 15px;
-    margin-left: auto;
-  }
-
-  #work-done {
-    padding: 0;
-  }
-
-  #work-done .work-wrap {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  #work-done .card p {
-    font-weight: 500;
-    font-size: 0.8em;
-  }
-
-  #work-done .work-img .overlay-container {
-    width: 320px;
-    height: 250px;
-  }
-
-  #work-done .work-img-right .overlay-container {
-    width: 320px;
-    height: 250px;
-    left: 0%;
-  }
-  #work-done .work-img-right img {
-    left: 0%;
-  }
-
-  #work-done .col-12 .overlay-container .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 30%;
-    transition: 0.5s ease;
-    background-color: #00aff0;
-    border-radius: 1%;
-  }
-
-  #work-done .col-12 .overlay-container .overlay:hover {
-    opacity: 1;
-  }
-
-  #work-done .work-content {
-    text-align: right;
-    position: relative;
-    z-index: 99;
-    /* top: 390%; */
-    right: 4%;
-    margin-top: 0;
-    width: 90%;
-  }
-
-  #work-done .work-content h4 {
-    margin: 0;
-    padding: 0;
-    z-index: 2;
-  }
-  #work-done .work-content ul {
-    left: 9%;
-  }
-
-  #work-done .work-content ul li {
-    font-size: 0.7rem;
-  }
-  /* left align style  */
-
-  .work-img-right img {
-    width: 100%;
-    height: 250px;
-    opacity: 45.5%;
-    left: 0%;
-  }
-
-  #work-done .work-content-left {
-    text-align: left;
-    z-index: 99;
-    left: 4%;
-    margin: 0;
-    width: 90%;
-  }
-
-  #work-done .work-content-left h2 {
-    margin: 0;
-    padding: 0;
-  }
-  #work-done .work-content-left ul {
-    left: 9%;
-  }
-
-  #work-done .work-content-left ul li {
-    font-size: 0.7rem;
-  }
 }
 
 /* @media screen and (max-width: 790px) {

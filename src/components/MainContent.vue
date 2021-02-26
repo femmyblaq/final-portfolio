@@ -30,6 +30,12 @@
           </div>
         </div>
       </div>
+      <div class="row divider">
+        <div
+          class="col-lg-1"
+          style="width:2px; height:100%; background-color:blue;"
+        ></div>
+      </div>
       <div class="content row">
         <div class="work col-lg-6 col-md-6">
           <h5>SPRING</h5>
@@ -185,11 +191,11 @@ export default {};
   width: 70%;
   margin-left: 30%;
   position: relative;
-  padding: 40px;
 }
 h5,
 h4 {
   color: gray;
+  font-size: 1em;
 }
 .progress {
   border-radius: 0;
