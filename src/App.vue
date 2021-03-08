@@ -17,22 +17,4 @@ export default {
 };
 </script>
 
-<style>
-@media (max-width: 350px) {
-  .home-content {
-    /* width: 70%; */
-    /* margin: 0 0 10px 0px; */
-  }
-  .home-content h1 {
-    font-weight: 600;
-    font-size: 2em;
-  }
-  .home-content h2 {
-    font-weight: 500;
-    font-size: 1em;
-  }
-  .vetical-side {
-    display: none;
-  }
-}
-</style>
+<style></style>

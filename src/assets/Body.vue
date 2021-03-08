@@ -19,19 +19,28 @@
     <section id="home-content">
       <div class="header row mb-lg-5">
         <div class="col-lg-10 m-lg-auto px-lg-5">
-          <p class="hi">Hi, my name is</p>
-          <h1>Yusuph Habeeb.</h1>
-          <h2>I build things for the web.</h2>
-          <div class=" mt-3">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              veniam iusto harum in deleniti reiciendis, est nesciunt Lorem
-              ipsum dolor, sit amet consectetur adipisicing elit. Inventore,
-              voluptatum!
-            </p>
+          <div class="appear animate__animated animate__fadeInUp">
+            <p class="hi">Hi, my name is</p>
+            <h1>Yusuph Habeeb.</h1>
+            <h2>I build things for the web.</h2>
           </div>
-          <div class="myBtn pt-4">
-            <button class="btn btn-outline-primary btn-lg">Get In Touch</button>
+          <div class=" mt-3">
+            <div
+              class="appear animate__animated animate__fadeInUp animate__slow animate__"
+            >
+              <p>
+                I'm a software engineering based in Lagos city. The world need
+                helpful Technology that make things easier, i specialize in
+                building exceptional website, application and everything
+                between.
+              </p>
+
+              <div class="myBtn pt-4">
+                <button class="btn btn-outline-primary btn-lg">
+                  Get In Touch
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -39,7 +48,11 @@
 
     <!-- About section -->
     <section id="about">
-      <div class="container-lg p-lg-5  mx-auto">
+      <div
+        class="container-lg p-lg-5  mx-auto"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div class="row mb-4">
           <div class="col-lg-10 px-0">
             <h5><span class="span">01. </span>About Me</h5>
@@ -99,10 +112,15 @@
 
     <!-- Experience section -->
 
-    <section id="experience" class="my-5">
-      <div class="container-lg p-0 mt-5 px-lg-5 text-center">
+    <section
+      id="experience"
+      class="mt-5 p-3"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div class="container-lg p-0 mt-5 text-center">
         <div class="row mb-lg-4">
-          <div class="col-lg-10 p-0 m-auto text-center">
+          <div class="col-lg-10 p-0 text-center mx-lg-auto">
             <h5><span class="span">02. </span>Where I've Worked</h5>
             <div class="linediv"></div>
           </div>
@@ -112,9 +130,9 @@
         <div class="row">
           <div class="col-lg-8 d-flex align-items-center m-auto">
             <div class="bd-example">
-              <div class="d-flex align-items-start">
+              <div class="d-flex align-items-start tab-holder">
                 <div
-                  class="nav flex-column me-3 bg-light"
+                  class="nav flex-column me-3 bg-light tab-top"
                   id="v-pills-tab"
                   role="tablist"
                   aria-orientation="vertical"
@@ -381,87 +399,137 @@
     </section>
 
     <!-- work have built -->
-    <section id="work-done">
-      <div class="container-lg">
-        <div class="row mb-4">
-          <div class="col-lg-10 d-grid">
-            <h5><span>03. </span>Some Things I've Built</h5>
-            <div class="linediv"></div>
+    <section id="hardest">
+      <div class="container-lg p-0 my-5">
+        <div class="row mb-lg-4 ">
+          <div class="col-lg-12 p-0holder">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="d-flex flex-row justify-content-start"
+            >
+              <h5 class="ms-2">
+                <span class="span">03. </span>Some Things I've done.
+              </h5>
+              <div class="linediv mt-lg-3 mt-md-4 mt-sm-3 ms-lg-2"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container-lg">
-        <div class="row work-wrap py-4">
-          <div class="work-img col-12">
-            <div class="overlay-container">
-              <img src="image/website1.png" alt="" />
-              <div class="overlay"></div>
+      <div
+        id="first-row"
+        class="row mx-0"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="work-done d-flex justify-content-end ">
+          <div class="workdone-img">
+            <div class="overlay-container w-50 h-100 position-relative">
+              <img
+                src="../../public/image/website1.png"
+                class="w-100 h-100 d-block"
+                alt=""
+              />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 h-100 w-100"
+              ></div>
             </div>
           </div>
-          <div class="work-content col-12 position-absolute">
-            <p class="m-0">Featured Project</p>
-            <h4>Personal Info</h4>
-            <div class="card bg-light">
-              <div class="card-body ">
-                <p class="card-text mt-0">
-                  This website is all about Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Optio dolor illo a nemo,
-                  possimus quibusdam.
-                </p>
-              </div>
+          <div class="workdone-content text-right position-absolute w-50">
+            <p class="text-end text-right mb-0 p">Feature Project</p>
+            <h3 class="text-end text-right">Next Technology</h3>
+            <div class="bg-light shadow">
+              <p class="p-3 text-right">
+                Next Technology is a beautiful website, with a
+                <span style="color: #00aff0">friendly user interface.</span>
+                That also has the sign in page for quick access. Lorem ipsum
+                dolor, sit amet consectetur adipisicing.
+              </p>
             </div>
-            <div class=" m-2">
-              <ul class="text-end mt-lg-2">
-                <li>Html <span>Bootstrap</span> <span>Font Awesome</span></li>
-              </ul>
-            </div>
+            <ul class="list-inline text-end">
+              <li class="list-inline-item">Html</li>
+              <li class="list-inline-item">Bootstrap</li>
+              <li class="list-inline-item">Font awesome</li>
+              <li class="list-inline-item">Vue js</li>
+              <li class="list-inline-item">Css</li>
+            </ul>
             <div class="links mt-2">
               <p class="text-end">
-                <i class="fa fa-github pe-2" aria-hidden="true"></i>
-                <i class="fas fa-external-link-alt ps-2 pe-0"></i>
+                <a href="" class="text-dark text-decoration-none"
+                  ><i class="fa fa-github pe-2" aria-hidden="true"></i
+                ></a>
+                <a href="" class="text-dark text-decoration-none"
+                  ><i class="fas fa-external-link-alt ps-2 pe-0"></i
+                ></a>
               </p>
             </div>
           </div>
         </div>
-
-        <div class="row work-wrap py-4">
-          <div class="work-content-left col-12 position-absolute">
-            <p class="m-0">Featured Project</p>
-            <h4>Personal Info</h4>
-            <div class="card bg-light">
-              <div class="card-body ">
-                <p class="card-text mt-0">
-                  This website is all about Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Optio dolor illo a nemo,
-                  possimus quibusdam.
+      </div>
+      <!-- second wrap stuling -->
+      <div
+        id="second-row"
+        class="row mx-0 mt-5"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="work-done d-flex justify-content-start ">
+          <div class="workdone-content text-left position-absolute w-50">
+            <div>
+              <p class="text-start text-left mb-0 p">Feature Project</p>
+              <h3 class="text-start text-left">Master Build</h3>
+              <div class="bg-light shadow">
+                <p class="p-3 text-left">
+                  Master Build is a professional website created using the
+                  <span style="color: #00aff0"> Vue cli command</span>, That
+                  allows user to know that they can explore their business with
+                  a website. And also they can also sign up, so they can get
+                  complete access.
+                </p>
+              </div>
+              <ul class="list-inline text-start ">
+                <li class="list-inline-item">Html</li>
+                <li class="list-inline-item">Bootstrap</li>
+                <li class="list-inline-item">Font awesome</li>
+                <li class="list-inline-item">Vue js</li>
+                <li class="list-inline-item">Css</li>
+              </ul>
+              <div class="links mt-2">
+                <p class="text-start">
+                  <a href="" class="text-dark text-decoration-none"
+                    ><i class="fa fa-github pe-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="" class="text-dark text-decoration-none"
+                    ><i class="fas fa-external-link-alt ps-2 pe-0"></i
+                  ></a>
                 </p>
               </div>
             </div>
-            <div class=" my-2">
-              <ul class=" mt-lg-2">
-                <li class="ps-0 text-start">
-                  Html <span>Bootstrap</span> <span>Font Awesome</span>
-                </li>
-              </ul>
-            </div>
-            <div class="links mt-2">
-              <p class="text-start">
-                <i class="fa fa-github pe-2" aria-hidden="true"></i>
-                <i class="fas fa-external-link-alt ps-2 pe-0"></i>
-              </p>
-            </div>
           </div>
-          <div class="work-img-right col-12">
-            <div class="overlay-container">
-              <img src="image/website1.png" alt="" />
-              <div class="overlay"></div>
+          <div class="workdone-img d-flex justify-content-end">
+            <div class="overlay-container w-50 h-100 position-relative">
+              <img
+                src="../../public/image/masterbuild.png"
+                class="w-100 h-100 d-block"
+                alt=""
+              />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 h-100 w-100"
+              ></div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- project that have done -->
-    <section id="projects" class="mt-4">
+    <section
+      id="projects"
+      class="mt-4"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div class="container mt-5">
         <div class="project-header text-center">
           <h3>Other Networthy Projects</h3>
@@ -759,7 +827,7 @@
           <div class="col-lg-4 text-center m-auto">
             <div class="show-button">
               <div class="btn btn-outline-primary btn-lg px-lg-5" @click="show">
-                Show More
+                {{ text }}
               </div>
             </div>
           </div>
@@ -768,7 +836,7 @@
     </section>
 
     <!-- Get in Touch with me -->
-    <section id="contact">
+    <section id="contact" data-aos="fade-up" data-aos-duration="1000">
       <div class="row my-5">
         <div class="col-lg-6 text-center m-auto">
           <div class="in-touch">
@@ -801,10 +869,14 @@
         </div>
         <div class="col-lg-3 m-auto text-center">
           <p>Design & built by Yusuph Habeeb</p>
-          <p>
-            <i class="far fa-star"></i><span> 304 </span
-            ><i class="fas fa-code-branch"></i> 205
-          </p>
+          <ul class="list-inline">
+            <li class="list-inline-item me-4">
+              <i class="far fa-star"></i> 104
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-code-branch"></i> 205
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -816,11 +888,17 @@ export default {
   data() {
     return {
       showMore: false,
+      text: "Show More",
     };
   },
   methods: {
     show() {
-      this.showMore = true;
+      this.showMore = !this.showMore;
+      if (this.showMore == true) {
+        this.text = "Show Less";
+      } else {
+        this.text = "Show More";
+      }
     },
   },
 };
