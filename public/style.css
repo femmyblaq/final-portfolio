@@ -1,8 +1,32 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+p:not(span) {
+  color: #8892b0;
 }
+
+.mb-menu {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(transparent, black, black);
+  z-index: 9999;
+}
+
+.mb-menu i {
+  font-size: 2em;
+  color: #8892b0 !important;
+}
+
+
+body {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  background-color: #141414 !important;
+}
+
+/* p {
+  color: #ddd;
+} */
 
 .vetical-left-side ul {
   padding: 0;
@@ -13,7 +37,7 @@ body {
   font-size: 1rem;
   padding: 6px;
   padding-left: 0px;
-  color: #063b4e;
+  color: #8892b0;
   list-style: none;
 }
 
@@ -45,7 +69,7 @@ body {
   font-size: 0.7em;
   margin: 0 3px 50px 10px;
   text-decoration: none;
-  color: #063b4e;
+  color: #8892b0;
 }
 
 .vetical-right-side a:hover {
@@ -57,7 +81,7 @@ body {
 .line {
   width: 2px;
   height: 100px;
-  background-color: #063b4e;
+  background-color: #8892b0;
   margin: auto;
   /* position: absolute;
   bottom: 2px;
@@ -66,7 +90,7 @@ body {
 
 #home-content .hi {
   font-family: "Roboto Mono", sans-serif;
-  /* color: #008891; */
+  color: #fff;
   font-size: 0.8em;
   margin: 0;
 }
@@ -81,7 +105,7 @@ body {
 .header>div h2 {
   font-weight: 700;
   font-size: 3.5em;
-  color: #5aa4be;
+  color: #2c76cc;
 }
 
 .header>div p {
@@ -106,6 +130,7 @@ body {
 
 #home-content {
   height: 80vh;
+  margin-top: 100px;
 }
 
 /* About section */
@@ -119,9 +144,10 @@ body {
 
 #about .col-lg-10 .span {
   font-family: "Roboto Mono";
-  font-weight: 700;
-  font-size: 0.7em;
-  color: #55a4be;
+  font-weight: lighter;
+  font-size: 0.6em;
+  color: #2c76cc;
+  ;
 }
 
 #about .col-lg-10 h5 {
@@ -172,11 +198,12 @@ body {
   border-radius: 2%;
   z-index: -1;
   position: absolute;
+  transition: 0.5s ease;
 }
 
 #about .col-lg-5 .overlay-container:hover .box {
   margin: 15px 0 0 15px;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 
 #about .container-lg {
@@ -198,6 +225,7 @@ body {
   padding: 0;
   font-size: 0.6em;
   font-family: "Roboto Mono";
+  color: #8892b0;
 }
 
 #about .row .col-lg-7 p {
@@ -218,16 +246,18 @@ body {
 }
 
 /* Experience section */
+#experience {}
 
 #experience .nav-link {
   border: none;
   text-align: left;
-  border-left: 5px solid #ccc;
+  border-left: 3px solid rgb(80, 79, 79);
   height: 50px;
   background: none;
   font-family: "Roboto Mono";
   font-size: 0.7em;
   scroll-behavior: smooth;
+  color: #8892b0;
 }
 
 #experience .nav-link:focus {
@@ -235,15 +265,15 @@ body {
 }
 
 #experience .nav-link:hover {
-  background-color: rgb(221, 220, 220);
+  background-color: rgb(87, 85, 85);
+  color: #00aff0;
 }
 
 #experience .nav-link.active {
   border: transparent;
-  border-left: 5px solid #00aff0;
+  border-left: 3px solid #00aff0;
   color: #00aff0;
   transition: 0.5s ease-in;
-  background-color: rgb(221, 220, 220);
 }
 
 #experience .container-lg .col-lg-10 {
@@ -252,9 +282,10 @@ body {
 }
 
 #experience .container-lg .col-lg-10 span {
-  color: #55a4be;
+  color: #2c76cc;
   font-family: "Roboto Mono";
-  font-size: 0.7em;
+  font-size: 0.6em;
+  font-weight: lighter;
 }
 
 #experience .container-lg .col-lg-10 h5 {
@@ -275,6 +306,8 @@ body {
   font-size: 1em;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #2c76cc;
+  ;
 }
 
 #experience .container .tab-header p {
@@ -298,8 +331,9 @@ body {
 
 #hardest span {
   font-family: "Roboto Mono";
-  font-size: 0.8em;
-  color: #55a4be;
+  font-size: 0.6em;
+  color: #2c76cc;
+  font-weight: lighter;
 }
 
 #hardest h5 {
@@ -311,7 +345,8 @@ body {
 #hardest .linediv {
   width: 300px;
   height: 1px;
-  background-color: #55a4be;
+  background-color: #2c76cc;
+  ;
 }
 
 #first-row .work-done .workdone-img .overlay {
@@ -357,7 +392,7 @@ body {
 .work-done .workdone-content .p {
   font-family: "Roboto Mono";
   font-size: 0.7em;
-  color: #5aa4be;
+  color: #2c76cc;
 }
 
 .work-done .workdone-content h3 {
@@ -367,9 +402,12 @@ body {
 .work-done .workdone-content ul {
   font-family: "Roboto Mono";
   font-size: 0.7em;
+  color: #8892b0;
 }
 
 /* project section style*/
+#projects {}
+
 .project-header h3 {
   font-weight: 600;
   color: #00aff0;
@@ -391,7 +429,8 @@ body {
 }
 
 .float-right {
-  color: #55a4be;
+  color: #2c76cc;
+  ;
   font-size: 1em;
   position: absolute;
   right: 3px;
@@ -406,6 +445,10 @@ body {
 .card-body .icons {
   display: flex;
   justify-content: space-between;
+}
+
+.card-body>.icons>span i {
+  color: #ccc;
 }
 
 .card-body>.icons>span i:hover {
@@ -434,7 +477,8 @@ body {
   font-size: 1.2em;
   font-family: "Roboto Mono";
   padding: 20px 30px;
-  border: 1px solid #55a4be;
+  border: 1px solid #2c76cc;
+  ;
 }
 
 #projects .show-button .btn-outline-primary:hover {
@@ -450,7 +494,8 @@ body {
 #contact .in-touch .next {
   font-family: "Roboto Mono";
   font-size: 0.8em;
-  color: #55a4be;
+  color: #2c76cc;
+  ;
   margin-bottom: 0;
 }
 
@@ -480,6 +525,7 @@ body {
 /* footer sec */
 #footer {
   padding: 20px;
+  margin-bottom: 70px;
 }
 
 #footer .text-center ul,
@@ -488,6 +534,7 @@ body {
   font-size: 0.7em;
   margin-bottom: 5px;
   cursor: pointer;
+  color: #8892b0 !important;
 }
 
 #footer .col-lg-3,
@@ -495,15 +542,15 @@ body {
   padding: 0;
 }
 
-#footer .col-lg-3:hover {
-  color: #00aff0;
-  transition: color 0.5s;
-}
-
 @media (min-width: 200px) and (max-width: 314px) {
   body {
     margin: 0;
     padding: 0;
+  }
+
+  .mb-menu i {
+    font-size: 1.2em;
+    color: #8892b0 !important;
   }
 
   #all-works {
@@ -618,7 +665,7 @@ body {
   }
 
   #about .box {
-    width: 220px;
+    width: 200px;
     height: 200px;
   }
 
@@ -761,12 +808,12 @@ body {
     padding-right: 10px;
   }
 
-  #first-row .workdone-content .bg-light {
+  #first-row .workdone-content .bg-dark {
     background-color: transparent !important;
     box-shadow: none !important;
   }
 
-  #first-row .workdone-content .bg-light p {
+  #first-row .workdone-content .bg-dark p {
     padding: 0 !important;
     text-align: right;
     line-height: 1em;
@@ -787,12 +834,12 @@ body {
     padding-left: 10px;
   }
 
-  #second-row .workdone-content .bg-light {
+  #second-row .workdone-content .bg-dark {
     background-color: transparent !important;
     box-shadow: none !important;
   }
 
-  #second-row .workdone-content .bg-light p {
+  #second-row .workdone-content .bg-dark p {
     padding: 0 !important;
     text-align: left;
     line-height: 1em;
@@ -833,7 +880,8 @@ body {
     font-size: 0.8em;
     font-family: "Roboto Mono";
     padding: 20px 30px;
-    border: 1px solid #55a4be;
+    border: 1px solid #2c76cc;
+    ;
   }
 
   #projects .show-button .btn-outline-primary:hover {
@@ -842,7 +890,8 @@ body {
   }
 
   .float-right {
-    color: #55a4be;
+    color: #2c76cc;
+    ;
     font-size: 1em;
     position: absolute;
     right: 3px;
@@ -1097,9 +1146,14 @@ body {
     border-left: none !important;
   }
 
+
   #experience .nav-link.active {
     border-left: none !important;
     border-bottom: 5px solid #00aff0 !important;
+  }
+
+  #experience .nav {
+    margin-bottom: 30px;
   }
 
   /* Workdone section style  */
@@ -1156,12 +1210,12 @@ body {
     padding-right: 10px;
   }
 
-  #first-row .workdone-content .bg-light {
+  #first-row .workdone-content .bg-dark {
     background-color: transparent !important;
     box-shadow: none !important;
   }
 
-  #first-row .workdone-content .bg-light p {
+  #first-row .workdone-content .bg-dark p {
     padding: 0 !important;
     text-align: right;
     line-height: 1em;
@@ -1182,12 +1236,12 @@ body {
     padding-left: 10px;
   }
 
-  #second-row .workdone-content .bg-light {
+  #second-row .workdone-content .bg-dark {
     background-color: transparent !important;
     box-shadow: none !important;
   }
 
-  #second-row .workdone-content .bg-light p {
+  #second-row .workdone-content .bg-dark p {
     padding: 0 !important;
     text-align: left;
     line-height: 1em;
@@ -1232,7 +1286,8 @@ body {
     font-size: 0.8em;
     font-family: "Roboto Mono";
     padding: 20px 30px;
-    border: 1px solid #55a4be;
+    border: 1px solid #2c76cc;
+    ;
   }
 
   #projects .show-button .btn-outline-primary:hover {
@@ -1241,7 +1296,8 @@ body {
   }
 
   .float-right {
-    color: #55a4be;
+    color: #2c76cc;
+    ;
     font-size: 1em;
     position: absolute;
     right: 3px;
@@ -1296,6 +1352,8 @@ body {
     font-size: 1.2em;
     margin: auto;
     text-align: center;
+    color: #8892b0 !important;
+
   }
 
   #footer .bottom-icons li:hover {
@@ -1486,12 +1544,12 @@ body {
     padding-right: 10px;
   }
 
-  #first-row .workdone-content .bg-light {
+  #first-row .workdone-content .bg-dark {
     background-color: transparent !important;
     box-shadow: none !important;
   }
 
-  #first-row .workdone-content .bg-light p {
+  #first-row .workdone-content .bg-dark p {
     padding: 0 !important;
     text-align: right;
     line-height: 1em;
@@ -1512,12 +1570,12 @@ body {
     padding-left: 10px;
   }
 
-  #second-row .workdone-content .bg-light {
+  #second-row .workdone-content .bg-dark {
     background-color: transparent !important;
     box-shadow: none !important;
   }
 
-  #second-row .workdone-content .bg-light p {
+  #second-row .workdone-content .bg-dark p {
     padding: 0 !important;
     text-align: left;
     line-height: 1em;
@@ -1713,7 +1771,7 @@ body {
     padding: 0 !important;
   }
 
-  #first-row .workdone-content .bg-light p {
+  #first-row .workdone-content .bg-dark p {
     text-align: right;
     line-height: 1em;
   }
@@ -1723,7 +1781,7 @@ body {
     margin-top: 150px !important;
   }
 
-  #second-row .workdone-content .bg-light p {
+  #second-row .workdone-content .bg-dark p {
     text-align: left;
     line-height: 1em;
   }
@@ -1826,7 +1884,8 @@ body {
     font-family: "Roboto Mono";
     font-weight: 700;
     font-size: 0.7em;
-    color: #55a4be;
+    color: #2c76cc;
+    ;
   }
 
   #about .col-lg-10 h5 {

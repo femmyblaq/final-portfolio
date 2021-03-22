@@ -1,59 +1,68 @@
 <template>
   <div class="container-fluid px-0">
-    <!-- <nav class="navbar navbar-expand-lg p-sm-3 fixed">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Y</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#femiNavbar"
-        aria-controls="femiNavbar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="femiNavbar">
-        <ul class="navbar-nav ms-auto">
-          <li
-            class="nav-item animate__animated animate__fadeInDown animate__delay-0.5s"
-          >
-            <a href="#about" class="nav-link"><span>01. </span>About</a>
-          </li>
-          <li
-            class="nav-item animate__animated animate__fadeInDown animate__delay-0.6s"
-          >
-            <a href="" class="nav-link"><span>02. </span>Experience</a>
-          </li>
-          <li
-            class="nav-item animate__animated animate__fadeInDown animate__delay-0.7s"
-          >
-            <a href="" class="nav-link"><span>03. </span>Work</a>
-          </li>
-          <li
-            class="nav-item animate__animated animate__fadeInDown animate__delay-0.8s"
-          >
-            <a href="#contact" class="nav-link"><span>04. </span>Contact</a>
-          </li>
-          <li class="animate__animated animate__fadeInDown animate__delay-0.9s">
-            <a href="">
-              <button class="btn btn-sm btn-outline-primary py-2 mt-2 px-3">
-                Resume
-              </button>
-            </a>
-          </li>
-        </ul>
+    <nav id="navbar" class="navbar navbar-expand-lg px-sm-3 w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="../../public/image/yusuphLogo.png" class="w-50 mt-0" alt=""
+        /></a>
+        <button
+          class="navbar-toggler d-sm-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#femiNavbar"
+          aria-controls="femiNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="femiNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li
+              class="nav-item animate__animated animate__fadeInDown animate__delay-0.5s"
+            >
+              <a href="#about" class="nav-link"><span>01. </span>About</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__fadeInDown animate__delay-0.6s"
+            >
+              <a href="" class="nav-link"><span>02. </span>Experience</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__fadeInDown animate__delay-0.7s"
+            >
+              <a href="" class="nav-link"><span>03. </span>Work</a>
+            </li>
+            <li
+              class="nav-item animate__animated animate__fadeInDown animate__delay-0.8s"
+            >
+              <a href="#contact" class="nav-link"><span>04. </span>Contact</a>
+            </li>
+            <li
+              class="animate__animated animate__fadeInDown animate__delay-0.9s"
+            >
+              <a href="">
+                <button class="btn btn-sm btn-outline-primary py-2 mt-2 px-3">
+                  Resume
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="" class="text-decoration-none d-lg-none"
+          ><button class="btn btn-sm btn-outline-primary  px-3">
+            Resume
+          </button></a
+        >
       </div>
-    </div>
-  </nav> -->
-    <div class="navbar d-flex align-items-center h-5">
-      <div class="navbar-container d-flex justify-content-between h-5 w-100 ">
+    </nav>
+    <!-- <div class="navbar d-flex bg-dark align-items-center py-3 px-2">
+      <div class="navbar-container d-flex justify-content-between w-100 ">
         <a
           href="#home-content"
           id="navbar-logo"
           class="text-decoration-none d-flex align-items-center"
-          ><img src="../../public/image/yusuphLogo.png" class="w-50" alt=""
+          ><img src="../../public/image/yusuphLogo.png" class="w-50 mt-0" alt=""
         /></a>
 
         <div class="navbar-toggle d-lg-none" id="mobile-menu">
@@ -91,8 +100,9 @@
             >
           </li>
         </ul>
+        
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -102,16 +112,11 @@ export default {};
 
 <style scoped>
 .navbar {
-  position: sticky;
+  position: fixed;
   z-index: 999;
   top: 0;
-}
-.navbar img {
-  margin-left: 20px;
-}
-.navbar-container {
-  max-width: 1300px;
-  z-index: 1;
+  transition: top 0.3s;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 li,
 a {
@@ -120,14 +125,12 @@ a {
   margin-right: 8px;
   color: #00aff0;
 }
-span {
-  color: #063b4e;
+li,
+a:hover {
+  color: #fff;
 }
-.navbar-brand {
-  border: 3px solid #00aff0;
-  font-weight: 900;
-  font-size: 1.5em;
-  padding: 0 10px;
+span {
+  color: #fff;
 }
 .btn-outline-primary {
   border: 1px solid #00aff0;
@@ -149,8 +152,11 @@ span {
     height: 80px;
   }
   .navbar img {
-    width: 50% !important;
     margin-left: 0;
+    margin-top: 15px;
+  }
+  .navbar-toggler {
+    display: none !important;
   }
   .navbar-menu {
     display: none;
@@ -194,10 +200,11 @@ span {
 
   #mobile-menu {
     position: absolute;
-    top: 25%;
+    top: 15%;
     right: 5%;
     transform: translate(5%, 20%);
     z-index: 99;
+    display: none;
   }
   .navbar-toggle .bar {
     display: block;
