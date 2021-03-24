@@ -2,20 +2,171 @@
   <div>
     <!-- Mobile-menu -->
     <div class="mb-menu d-flex pt-4 pb-2 justify-content-center d-lg-none">
-      <ul class="list-inline mb-0 ">
-        <li class="list-inline-item ">
-          <a href="#home-content"><i class="fas text-white fa-home"></i></a>
-        </li>
-        <li class="list-inline-item ">
-          <a href="#about"><i class="far text-white fa-user px-4"></i></a>
-        </li>
-        <li class="list-inline-item ">
-          <a href="#contact"><i class="far text-white fa-envelope px-4"></i></a>
-        </li>
-        <li class="list-inline-item ">
-          <a href="#hardest"><i class="fas text-white fa-briefcase"></i></a>
-        </li>
-      </ul>
+      <div class="row">
+        <div class="col-3">
+          <a href="#home-content" class="navlinksvg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="23"
+              viewBox="0 0 19.5 21.5"
+            >
+              <g
+                id="home_2_"
+                data-name="home (2)"
+                transform="translate(-2.25 -1.25)"
+              >
+                <path
+                  class="navpath"
+                  id="Path_38"
+                  data-name="Path 38"
+                  d="M3,9l9-7,9,7V20a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2Z"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+                <path
+                  class="navpath"
+                  id="Path_39"
+                  data-name="Path 39"
+                  d="M9,22V12h6V22"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#about" class="navlinksvg2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="23"
+              viewBox="0 0 17.5 19.5"
+            >
+              <g
+                id="user_3_"
+                data-name="user (3)"
+                transform="translate(-3.25 -2.25)"
+              >
+                <path
+                  class="navpath2"
+                  id="Path_42"
+                  data-name="Path 42"
+                  d="M20,21V19a4,4,0,0,0-4-4H8a4,4,0,0,0-4,4v2"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+                <circle
+                  class="navpath2"
+                  id="Ellipse_10"
+                  data-name="Ellipse 10"
+                  cx="4"
+                  cy="4"
+                  r="4"
+                  transform="translate(8 3)"
+                  stroke-width="1.5"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                ></circle>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#experience" class="navlinksvg3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="23"
+              viewBox="0 0 21.5 19.5"
+            >
+              <g
+                id="briefcase_1_"
+                data-name="briefcase (1)"
+                transform="translate(-1.25 -2.25)"
+              >
+                <rect
+                  class="navpath3"
+                  id="Rectangle_33"
+                  data-name="Rectangle 33"
+                  width="20"
+                  height="14"
+                  rx="2"
+                  transform="translate(2 7)"
+                  stroke-width="1.5"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                ></rect>
+                <path
+                  class="navpath3"
+                  id="Path_37"
+                  data-name="Path 37"
+                  d="M16,21V5a2,2,0,0,0-2-2H10A2,2,0,0,0,8,5V21"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#contact" class="navlinksvg4">
+            <!-- <img height="23" src="./assets/img/icons/mail.svg" /> -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="23"
+              viewBox="0 0 22.089 17.5"
+            >
+              <g
+                id="mail_1_"
+                data-name="mail (1)"
+                transform="translate(-0.956 -3.25)"
+              >
+                <path
+                  class="navpath4"
+                  id="Path_40"
+                  data-name="Path 40"
+                  d="M4,4H20a2.006,2.006,0,0,1,2,2V18a2.006,2.006,0,0,1-2,2H4a2.006,2.006,0,0,1-2-2V6A2.006,2.006,0,0,1,4,4Z"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+                <path
+                  class="navpath4"
+                  id="Path_41"
+                  data-name="Path 41"
+                  d="M22,6,12,13,2,6"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
     <div id="all-works" class="container-fluid">
       <!-- My sides -->
