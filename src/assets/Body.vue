@@ -199,7 +199,7 @@
               >
                 <p>
                   I'm a software engineering based in Lagos city. The world need
-                  helpful Technology that make things easier, i specialize in
+                  helpful Technology that make things easier, I specialize in
                   building exceptional website, application and everything
                   between.
                 </p>
@@ -231,20 +231,20 @@
           <div class="row">
             <div class="col-lg-7 p-0">
               <p>
-                Hello, i'm habeeb, a software engeneering base on Lagos City.
+                Hello, I'm Habeeb, a software engeneering base on Lagos City.
               </p>
               <p>
-                To me creating things on the internet is fun, like, i do enjoy
+                To me creating things on the internet is fun, like, I do enjoy
                 it. Whether web application or anything between. My goal is to
                 always build web apps that enable people interaction.
               </p>
               <p>
-                Shortly after i finished my ND from
+                Shortly after I finished my HND from
                 <span style="color: #00aff0">YABA COLLEGE OF TECHNOLOGY.</span>
                 I joined the engineering team at
                 <span style="color: #00aff0">@company_name</span>
-                where i work at a wild variety of iteresting projects on a daily
-                basis.
+                where I work at a wild variety of interesting projects on a
+                daily basis.
               </p>
               <p>
                 Here are a few technologies I've been working with recently:
@@ -577,7 +577,7 @@
       <section id="hardest">
         <div class="container-lg p-0 my-3">
           <div class="row mb-lg-4 ">
-            <div class="col-lg-12 p-0holder">
+            <div class="col-lg-12 p-0 holder">
               <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -597,9 +597,9 @@
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div class="work-done d-flex justify-content-end ">
+          <div class="work-done d-flex p-0">
             <div class="workdone-img">
-              <div class="overlay-container w-50 h-100 position-relative">
+              <div class="overlay-container w-75 h-100 position-relative">
                 <img
                   src="../../public/image/website1.png"
                   class="w-100 h-100 d-block"
@@ -662,7 +662,7 @@
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div class="work-done mt-lg-5 d-flex justify-content-start ">
+          <div class="work-done mt-lg-5">
             <div
               class="workdone-content mt-lg-4 text-left position-absolute w-50"
             >
@@ -705,7 +705,7 @@
               </div>
             </div>
             <div class="workdone-img d-flex justify-content-end">
-              <div class="overlay-container w-50 h-100 position-relative">
+              <div class="overlay-container  h-100 position-relative">
                 <img
                   src="../../public/image/masterbuild.png"
                   class="w-100 h-100 d-block"
@@ -1050,7 +1050,13 @@
               </p>
             </div>
             <div class="in-touch-btn my-5">
-              <div class="btn btn-outline-primary btn-lg">Say Hello!</div>
+              <a
+                class="btn btn-outline-primary btn-lg"
+                href="mailto:yusuphhabeeb.netlify.app"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Say Hello!</a
+              >
             </div>
           </div>
         </div>

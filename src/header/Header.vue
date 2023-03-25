@@ -41,68 +41,27 @@
             <li
               class="animate__animated animate__fadeInDown animate__delay-0.9s"
             >
-              <a href="">
-                <button class="btn btn-sm btn-outline-primary py-2 mt-2 px-3">
-                  Resume
-                </button>
+              <a
+                href="/myresume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn mt-lg-2 btn-sm btn-outline-primary  px-3"
+              >
+                Resume
               </a>
             </li>
           </ul>
         </div>
-        <a href="" class="text-decoration-none d-lg-none"
-          ><button class="btn btn-sm btn-outline-primary  px-3">
-            Resume
-          </button></a
+        <a
+          href="../assets/FemmyHY.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-sm btn-outline-primary  px-3 d-lg-none"
         >
+          Resume
+        </a>
       </div>
     </nav>
-    <!-- <div class="navbar d-flex bg-dark align-items-center py-3 px-2">
-      <div class="navbar-container d-flex justify-content-between w-100 ">
-        <a
-          href="#home-content"
-          id="navbar-logo"
-          class="text-decoration-none d-flex align-items-center"
-          ><img src="../../public/image/yusuphLogo.png" class="w-50 mt-0" alt=""
-        /></a>
-
-        <div class="navbar-toggle d-lg-none" id="mobile-menu">
-          <span class="bar" style="width: 35px;"></span>
-          <span class="bar mx-0" style="width: 30px;"></span>
-          <span class="bar mx-0"></span>
-        </div>
-
-        <ul class="navbar-menu list-inline text-center mt-3">
-          <li class="navbar-item h-5 list-inline-item me-lg-4">
-            <a href="#about" class="navbar-link h-100 text-decoration-none"
-              ><span>01. </span>About</a
-            >
-          </li>
-          <li class="navbar-item h-5 list-inline-item me-lg-4">
-            <a href="#experience" class="navbar-link h-100 text-decoration-none"
-              ><span>02. </span>Experience</a
-            >
-          </li>
-          <li class="navbar-item h-5 list-inline-item me-lg-4">
-            <a href="#hardest" class="navbar-link h-100 text-decoration-none"
-              ><span>03. </span>Work</a
-            >
-          </li>
-          <li class="navbar-item h-5 list-inline-item me-lg-4">
-            <a href="#contact" class="navbar-link h-100 text-decoration-none"
-              ><span>04. </span>Contact</a
-            >
-          </li>
-          <li class=" list-inline-item">
-            <a href="" class="text-decoration-none"
-              ><button class="btn btn-sm btn-outline-primary py-2 px-3">
-                Resume
-              </button></a
-            >
-          </li>
-        </ul>
-        
-      </div>
-    </div> -->
   </div>
 </template>
 

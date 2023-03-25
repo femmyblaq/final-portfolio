@@ -1,8 +1,10 @@
 .DS_Store
 node_modules
 /dist
-
-
+deploy.sh
+myresume.pdf
+/src/assets/FemmyHY.pdf
+/src/assets/Resume.png
 # local env files
 .env.local
 .env.*.local

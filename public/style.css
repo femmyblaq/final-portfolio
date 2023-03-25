@@ -34,6 +34,7 @@ body {
   padding-left: 0px;
   color: #8892b0;
   list-style: none;
+  cursor: pointer;
 }
 
 .side-icons li:hover {
@@ -343,7 +344,6 @@ body {
   width: 300px;
   height: 1px;
   background-color: #2c76cc;
-  ;
 }
 
 #first-row .work-done .workdone-img .overlay {
@@ -354,6 +354,11 @@ body {
 
 #first-row .work-done .workdone-img .overlay-container {
   height: 400px !important;
+}
+
+#first-row .work-done .workdone-content {
+  z-index: 99;
+  right: 0 !important;
 }
 
 #first-row .work-done .workdone-img img {
@@ -376,6 +381,7 @@ body {
 
 #second-row .work-done .workdone-img .overlay-container {
   height: 400px !important;
+  width: 65%;
 }
 
 #second-row .work-done .workdone-img .overlay-container .overlay:hover {
@@ -384,6 +390,12 @@ body {
 
 #second-row .work-done .workdone-content {
   z-index: 99;
+  left: 0 !important;
+}
+
+#first-row,
+#second-row {
+  margin: 70px 0;
 }
 
 .work-done .workdone-content .p {
@@ -403,7 +415,7 @@ body {
 }
 
 /* project section style*/
-#projects {}
+/* #projects {} */
 
 .project-header h3 {
   font-weight: 600;
@@ -864,10 +876,6 @@ body {
     padding: 8px;
   }
 
-  #projects>.container>.projects .card:hover {
-    /* margin-bottom: 5px;
-    transition: margin-bottom 0.5s; */
-  }
 
   #projects .container {
     padding: 10px;
@@ -1270,10 +1278,6 @@ body {
     padding: 8px;
   }
 
-  #projects>.container>.projects .card:hover {
-    /* margin-bottom: 5px;
-    transition: margin-bottom 0.5s; */
-  }
 
   #projects .container {
     padding: 10px;
